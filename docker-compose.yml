@@ -4,7 +4,7 @@ services:
     image: postgres
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: pleasework
     ports: 
       - '5432:5432'
     volumes:
@@ -16,7 +16,7 @@ services:
     environment:
       DB_SCHEMA: postgres
       DB_USER: postgres
-      DB_PASSWORD: postgres
+      DB_PASSWORD: pleasework
       DB_HOST: postgres
     depends_on:
       - postgres
